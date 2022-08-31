@@ -62,7 +62,7 @@ function getExchangeRate(){
         let total = (amountVal*resultadini).toFixed(2);
         console.log(total);
         const resultado_texto = document.querySelector(".exchange-rate");
-        resultado_texto.innerHTML = `${amountVal} ${fromCurrency.value} = ${resultadini} ${toCurrency.value}`;
+        resultado_texto.innerHTML = `${amountVal} ${fromCurrency.value} = ${total} ${toCurrency.value}`;
         
 
     });
